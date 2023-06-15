@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 8px;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome{
+            background-color: rgba(128, 128, 128, 0.548);
+        }
+        col.cprof{
+           background-color: rgba(137, 43, 226, 0.644);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof"> 
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Psicólogo</td>
+        </tr>
+        <tr>
+            <td>Marco</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Engenheiro de Software</td>
+        <tr>
+            <td>Mauro</td>
+            <td>M</td>
+            <td>21</td>
+            <td>Matemático</td>
+        </tr>
+        <tr>
+            <td>Jhennifer</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Fashion Designer</td>
+        </tr>
+        <tr>
+            <td>Adryan</td>
+            <td>M</td>
+            <td>14</td>
+            <td>Designer</td>
+        </tr>
+        <tr>
+            <td>Mayara</td>
+            <td>F</td>
+            <td>20</td>
+            <td>Psicóloga</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>24</td>
+            <td>Lojista</td>
+        </tr>
+        <tr>
+            <td>Eduardo</td>
+            <td>M</td>
+            <td>17</td>
+            <td>Gerente de Tráfego</td>
+        </tr>
+    </table>
+</body>
+</html>
